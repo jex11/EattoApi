@@ -1,0 +1,6 @@
+@Eatto.WebApi_HostAddress = http://localhost:5114
+
+GET {{Eatto.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
