@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eatto.Core\Eatto.Core.csproj" />
+    <ProjectReference Include="..\Eatto.CrossCutting\Eatto.CrossCutting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UseCases\Categories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.0.0" />
+  </ItemGroup>
+
+</Project>

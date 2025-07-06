@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36127.28 d17.14
+VisualStudioVersion = 17.14.36127.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eatto.WebApi", "Eatto.WebApi\Eatto.WebApi.csproj", "{9D7756EE-B607-4358-A0D2-98AC3199C708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eatto.Core", "Eatto.Core\Eatto.Core.csproj", "{2C011682-055C-49D1-B306-8F87B9BA4BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eatto.Application", "Eatto.Application\Eatto.Application.csproj", "{5F61BBBE-12D5-4E6E-881E-3AA2900CFAEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eatto.Infrastructure", "Eatto.Infrastructure\Eatto.Infrastructure.csproj", "{62D11950-CFED-4A39-BFA6-7148A973004E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eatto.CrossCutting", "Eatto.CrossCutting\Eatto.CrossCutting.csproj", "{7E7F4550-FF5C-4DB4-A60D-D38DFDB99EA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{9D7756EE-B607-4358-A0D2-98AC3199C708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D7756EE-B607-4358-A0D2-98AC3199C708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D7756EE-B607-4358-A0D2-98AC3199C708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C011682-055C-49D1-B306-8F87B9BA4BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C011682-055C-49D1-B306-8F87B9BA4BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C011682-055C-49D1-B306-8F87B9BA4BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C011682-055C-49D1-B306-8F87B9BA4BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F61BBBE-12D5-4E6E-881E-3AA2900CFAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F61BBBE-12D5-4E6E-881E-3AA2900CFAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F61BBBE-12D5-4E6E-881E-3AA2900CFAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F61BBBE-12D5-4E6E-881E-3AA2900CFAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D11950-CFED-4A39-BFA6-7148A973004E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D11950-CFED-4A39-BFA6-7148A973004E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D11950-CFED-4A39-BFA6-7148A973004E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D11950-CFED-4A39-BFA6-7148A973004E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7F4550-FF5C-4DB4-A60D-D38DFDB99EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7F4550-FF5C-4DB4-A60D-D38DFDB99EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7F4550-FF5C-4DB4-A60D-D38DFDB99EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7F4550-FF5C-4DB4-A60D-D38DFDB99EA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
